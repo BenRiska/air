@@ -1,7 +1,10 @@
 import './App.css';
 import Banner from './Banner';
 import Nav from './Nav';
+import ProductInfo from './ProductInfo';
 import Sponsors from './Sponsors';
+import Testimonial from './Testimonial';
+import TextContent from './TextContent';
 import VideoContent from './VideoContent';
 
 function App() {
@@ -16,8 +19,11 @@ function App() {
       {/* VideoContent */}
       <VideoContent/>
       {/* TextContent */}
+      <TextContent/>
       {/* Testimonial */}
+      <Testimonial/>
       {/* ProductInfo */}
+      <ProductInfo/>
       {/* Testimonial */}
       {/* FreeTrial */}
       {/* Footer */}

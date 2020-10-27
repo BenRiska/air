@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 30px 50px;
+  margin-bottom: 30px;
 }
 
 .sponsors__sponsor > img {

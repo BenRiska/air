@@ -1,0 +1,59 @@
+.textContent__container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px;
+}
+
+.textContent__content {
+  flex: 0.35;
+}
+
+.textContent__content > h2 {
+  color: rgb(20, 42, 114);
+  font-size: 47px;
+}
+
+.textContent__content > h2 > u {
+  text-decoration: none;
+  position: relative;
+}
+
+.textContent__content > h2 > u > svg {
+  position: absolute;
+  bottom: -2px;
+  width: 100%;
+  transform: translateX(-100%);
+}
+
+.textContent__content > p {
+  color: #333333;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.textContent__content > button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: rgb(41, 84, 175);
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.learnMoreArrow {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.textContent__container > img {
+  flex: 0.5;
+}
