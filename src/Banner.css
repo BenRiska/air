@@ -1,0 +1,59 @@
+.banner {
+  background-color: rgb(222, 238, 252);
+  min-height: 800px;
+}
+
+.banner-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.banner__info {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 120px;
+  z-index: 5;
+}
+
+.banner__info > h2 {
+  max-width: 424px;
+  font-size: 70px;
+  font-family: Gelica, Georgia, serif;
+  color: rgb(20, 42, 114);
+}
+
+.banner__info > p {
+  color: #333333;
+  margin-top: 25px;
+  font-size: 22px;
+  max-width: 400px;
+}
+
+.banner__info > button {
+  margin-top: 45px;
+  width: 40%;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(41, 84, 175);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: 0.2s ease;
+}
+
+.banner__info > button:hover {
+  background-color: rgb(20, 42, 114);
+}
+
+.banner-content > img {
+  position: absolute;
+  top: 20px;
+  left: 320px;
+}
