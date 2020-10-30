@@ -1,11 +1,15 @@
 import React from 'react'
 import "./Nav.css"
 import logo from "./logo"
+import MenuIcon from '@material-ui/icons/Menu';
 
 function Nav() {
     return (
         <div className="nav">
             <div className="nav__container">
+                <div className="nav__burger">
+                <MenuIcon fontSize="large"/>
+                </div>
                 <div className="nav__left">
                     <a href="/">Tour</a>
                     <a href="/">Pricing</a>

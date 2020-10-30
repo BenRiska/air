@@ -57,3 +57,31 @@
 .textContent__container > img {
   flex: 0.5;
 }
+
+@media only screen and (max-width: 1050px) {
+  .textContent__container {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px;
+  }
+
+  .textContent__content > h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .textContent__content > p {
+    font-size: 16px;
+    max-width: 650px;
+  }
+
+  .textContent__content > button {
+    margin: 30px 0;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .textContent__container > img {
+    width: 50vw;
+  }
+}

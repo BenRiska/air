@@ -65,3 +65,26 @@
   border-color: transparent;
   background-color: rgb(191, 219, 249);
 }
+
+.nav__burger {
+  display: none;
+  flex: 0.3;
+  justify-self: flex-start;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 1050px) {
+  .nav__left {
+    display: none;
+  }
+
+  .nav__burger {
+    display: initial;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__right {
+    display: none;
+  }
+}

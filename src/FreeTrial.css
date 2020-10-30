@@ -1,0 +1,71 @@
+.freeTrial {
+  background-color: rgb(246, 246, 246);
+}
+
+.freeTrial__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 800px;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.freeTrial__container > h2 {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(20, 42, 114);
+  font-size: 48px;
+  font-family: Gelica, Georgia, serif;
+}
+
+.freeTrial__container > h2 > svg {
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.freeTrial__container > p {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #333333;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.freeTrial__container > button {
+  padding: 15px 20px;
+  width: 200px !important;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(41, 84, 175);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: 0.2s ease;
+}
+
+.freeTrial__container > button:hover {
+  background-color: rgb(20, 42, 114);
+}
+
+@media only screen and (max-width: 1050px) {
+  .freeTrial {
+    overflow-y: hidden;
+  }
+  .freeTrial__container > h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .freeTrial__container > h2 > svg {
+    height: 133px;
+  }
+}

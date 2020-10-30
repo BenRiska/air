@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Banner.css"
+import vector from "./vector.svg"
 
 function Banner() {
     return (
@@ -12,6 +13,7 @@ function Banner() {
                 </div>
                 <img src="https://images.ctfassets.net/l2ai7bec55u7/6kefYPAXnpr7Hk9ejsWiYA/0f9e7a396100f4ecd545ff3b390b7091/AIR_masthead_3_2x.jpg?fm=jpg&fl=progressive&w=900" alt="product depiction"/>
             </div>
+            <img src={vector} alt=""/>
         </div>
     )
 }

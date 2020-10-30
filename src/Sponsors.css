@@ -1,3 +1,7 @@
+.sponsors {
+  position: relative;
+}
+
 .sponsors__container {
   margin: 0 auto;
   max-width: 1200px;
@@ -10,4 +14,22 @@
 
 .sponsors__sponsor > img {
   width: 5vw;
+}
+
+.sponsors > img {
+  width: 100vw;
+  fill: white;
+  z-index: 1000;
+  top: -35px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 800px) {
+  .sponsors__sponsor > img {
+    width: 25vw;
+  }
+
+  .sponsors__container {
+    padding: 30px 30px 10px 30px;
+  }
 }

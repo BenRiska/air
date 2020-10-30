@@ -10,7 +10,7 @@ function TextContent() {
                     <h2>Find {" "}
                         <u>creative 
                             <svg xmlns="http://www.w3.org/2000/svg" height="5" fill="none" class="ttcgub-0 ixgvBS"><pattern id="squiggly" x="0" y="0" width="78" height="5" patternUnits="userSpaceOnUse"><path d="M0 1.67188C10.5043 1.67188 10.5043 3.03799 19.8895 3.03799C29.2747 3.03799 29.2747 1.67188 38.6622 1.67188C48.0496 1.67188 48.0496 3.03799 57.4348 3.03799C66.82 3.03799 66.8223 1.67188 78.2075 1.67188" stroke="#33DBDB" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" class="ttcgub-0 cvZdJd"></path></pattern><rect x="0" y="0" width="100%" height="100%" fill="url(#squiggly)"></rect></svg>
-                        </u> 
+                        </u> {" "}
                         <u>clarity
                             <svg xmlns="http://www.w3.org/2000/svg" height="5" fill="none" class="ttcgub-0 ixgvBS"><pattern id="squiggly" x="0" y="0" width="78" height="5" patternUnits="userSpaceOnUse"><path d="M0 1.67188C10.5043 1.67188 10.5043 3.03799 19.8895 3.03799C29.2747 3.03799 29.2747 1.67188 38.6622 1.67188C48.0496 1.67188 48.0496 3.03799 57.4348 3.03799C66.82 3.03799 66.8223 1.67188 78.2075 1.67188" stroke="#33DBDB" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" class="ttcgub-0 cvZdJd"></path></pattern><rect x="0" y="0" width="100%" height="100%" fill="url(#squiggly)"></rect></svg>
                         </u> {" "}

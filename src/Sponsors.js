@@ -1,9 +1,12 @@
 import React from 'react'
 import "./Sponsors.css"
+import vector from "./vector.svg"
 
 function Sponsors() {
     return (
         <div className="sponsors">
+            {/* <img src={vector} alt=""/> */}
+
             <div className="sponsors__container">
                 <div className="sponsors__sponsor">
                     <img src="https://images.ctfassets.net/l2ai7bec55u7/7drzVcOI0iAWA8ECsYxM1K/2569d64af92a02cf3853bf9206f725ed/Duke_gothic-15.svg?" alt="sponsor"/>

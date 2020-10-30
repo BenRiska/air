@@ -1,6 +1,15 @@
 .banner {
   background-color: rgb(222, 238, 252);
   min-height: 800px;
+  position: relative;
+}
+
+.banner > img {
+  width: 100vw;
+  fill: white;
+  z-index: 1000;
+  bottom: -5px;
+  position: absolute;
 }
 
 .banner-content {
@@ -56,4 +65,47 @@
   position: absolute;
   top: 20px;
   left: 320px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .banner-content > img {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  .banner-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner__info {
+    margin-top: 80px;
+    align-items: center;
+  }
+
+  .banner__info > h2 {
+    max-width: 700px;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .banner__info > p {
+    max-width: 600px;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .banner-content > img {
+    position: relative;
+    top: -10px;
+    width: 80vw;
+    left: initial;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-content > img {
+    width: 100vw;
+  }
 }
